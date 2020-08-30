@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "291899412115",
+    "firebase_url": "https://chatingapp-4c066.firebaseio.com",
+    "project_id": "chatingapp-4c066",
+    "storage_bucket": "chatingapp-4c066.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:291899412115:android:cea7fadf6ed45f1b1d4766",
+        "android_client_info": {
+          "package_name": "shivaguntoji.chatting_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "291899412115-veo6gpekhh5mrhkkovcshh1aeg764nuo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxSMC10kqsBx6DcJZSB2AN5eWQVCJUgGo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "291899412115-veo6gpekhh5mrhkkovcshh1aeg764nuo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
