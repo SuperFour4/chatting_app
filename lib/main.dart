@@ -2,6 +2,8 @@ import 'package:chatting_app/Helper/authenticate.dart';
 import 'package:chatting_app/Helper/helper_functions.dart';
 import 'package:chatting_app/Screens/chat_room.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_windowmanager/flutter_windowmanager.dart';
+
 
 void main() {
   runApp(MyApp());
@@ -20,8 +22,14 @@ class _MyAppState extends State<MyApp> {
   @override
   void initState() {
     // TODO: implement initState
-    getLoggedInState();
+
+    //getLoggedInState();
+    screenShotDisable();
     super.initState();
+  }
+  screenShotDisable() async {
+    await FlutterWindowManager.addFlags(
+        FlutterWindowManager.FLAG_SECURE);
   }
 
   getLoggedInState() async {
